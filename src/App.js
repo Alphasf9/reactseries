@@ -1,6 +1,10 @@
+import ASUS from "./Index1.js"
 function App() {
   return (
-    <h1>Hello ReactJs</h1>
+    <>
+      <ASUS />
+      <h1>Hello ReactJs</h1>
+    </>
   );
 }
 
