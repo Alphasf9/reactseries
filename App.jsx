@@ -8,8 +8,8 @@ function App() {
   let [counter, setcounter] = useState(0)    // let [variable , function]   HOOK
 
   const addValue = () => {
-    if (counter == 20) {
-      setcounter(20);
+    if (counter == 0) {
+      setcounter(0);
     }
 
     else {
